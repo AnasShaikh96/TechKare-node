@@ -1,0 +1,10 @@
+<% if (message.length > 0) { %>
+	<div class="alert alert-success" role="alert" data-auto-dismiss="2000">
+		<%= message %>
+	</div>
+<% } %>
+<% if (errorMessage.length > 0) { %>
+	<div class="alert alert-danger" role="alert" data-auto-dismiss="2000">
+		<%= errorMessage %>
+	</div>
+<% } %>

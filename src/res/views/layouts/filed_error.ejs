@@ -1,0 +1,12 @@
+<% if(errors!=null){
+	if (Object.keys(errors).length > 0) {
+		for(var i in errors){
+			if(i == field){
+%>
+	<span class="error text-danger">
+		<%= errors[i] %>
+	</span>
+<% 			}
+		}
+	}
+} %>

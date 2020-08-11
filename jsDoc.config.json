@@ -1,0 +1,37 @@
+{
+    "tags": {
+        "allowUnknownTags": true,
+        "dictionaries": ["jsdoc","closure"]
+    },
+    "source": {
+	"include":[],
+	"exclude":["./node_modules"]
+    },
+    "plugins":[
+	"plugins/markdown",
+	"plugins/summarize"
+     ],
+    "templates": {        
+	"systemName"      		: "Example",
+        "footer"          		: "",
+        "copyright"       		: "<img src='http://www.graymatrix.com/wp-content/themes/gmatrix/images/logo/gmLogo.png' height='20' width='20'>&nbsp;Graymatrix Copyright © 2017-2018.",
+        "navType"         		: "inline",
+        "theme"           		: "slate",
+        "linenums"        		: true,
+        "collapseSymbols" 		: true,
+        "inverseNav"      		: true,
+	"outputSourceFiles"     	: true,
+        "outputSourcePath"      	: true,
+        "dateFormat"            	: "DD-MM-YYYY HH:mm:ss"
+    },
+    "opts":{
+	"template":"node_modules/ink-docstrap/template",
+	"encoding": "utf8",
+	"destination": "../jsdoc/",
+	"recurse": true,
+	"package":"./package.json",
+	"access":"all",
+	"private":true,
+	"verbose":true
+    }
+}

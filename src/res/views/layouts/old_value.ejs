@@ -1,0 +1,12 @@
+<% if(old!=null){
+	if (Object.keys(old).length > 0) {
+		for(var i in old){
+			if(i == field){
+				
+				if(type=="text"){%><%= old[i] %><%}else if(type=="select"){ 
+					if(value==old[i]) { %> selected="true" <%}	
+				}
+			}
+		}
+	}
+} %>

@@ -1,0 +1,9 @@
+{
+  "verbose": true,
+  "ignore": ["/src/public/jsdoc","/src/res/public/jsdoc/**"],
+  "debug":false,
+  "execMap": {
+    "js": "node"
+  },
+  "ext": "js json ejs png jpeg jpg gif css"
+}
