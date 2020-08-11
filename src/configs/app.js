@@ -23,12 +23,12 @@ module.exports = {
 	* System Domain
 	* @type {string}
 	*/
-	"_host":"http://45.64.194.62:8902",
+	"_host":"http://localhost:3000",
 	/** 
 	* System running port
 	* @type {string}
 	*/
-	"_system_port":"3001",
+	"_system_port":"3000",
 	/** 
 	* get ip info from request
 	* @type {number}
