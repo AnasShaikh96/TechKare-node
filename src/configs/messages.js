@@ -1,12 +1,10 @@
-'use strict'
+"use strict";
 
 /**
-* @public
-* @alias Messages
-* @memberof com.sample.config
-* @enum {String}
-*/
+ * @public
+ * @alias Messages
+ * @memberof com.techkare.config
+ * @enum {String}
+ */
 
-module.exports.messages = {
-}
-
+module.exports.messages = {};

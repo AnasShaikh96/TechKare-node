@@ -1,0 +1,55 @@
+<div class="bg-darkBlue py-3">
+    <p class="text-light text-center  fs-5">For any further queries, please write to us at</p>
+    <span class="text-light text-center fs-5 d-block fw-bold">help@teckkare.in</span>
+</div>
+
+<div class="container text-muted d-flex justify-content-around align-items-start align-items-lg-center py-3">
+    <div class="d-lg-flex d-none w-25 justify-content-between  flex-lg-row flex-column">
+        <span class="d-block">About Us</span>
+        <span class="d-block">Services</span><span class="d-block">Privacy Policy</span>
+    </div>
+    <div class="d-lg-flex d-none flex-column flex-lg-row  ">
+        <img src="/images/facebook.png" width="40" class="mx-2 img-brand" alt="facebook" />
+        <img src="/images/twitter.png" width="40" class="mx-2 img-brand" alt="twitter" />
+        <img src="/images/instagram.png" width="40" class="mx-2 img-brand" alt="instagram" />
+        <img src="/images/linkedin.png" width="40" class="mx-2 img-brand" alt="linkedin" />
+    </div>
+    <div class="d-block d-lg-block">
+        <span>Copyright teckkare All Rights Reserved &#169</span>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="/assets/parallax/parallax.min.js"></script>
+
+<script src="/assets/slick/slick.min.js"></script>
+
+<script src="/assets/index.js"></script>
+<script src="/assets/intTellInput/intl-tel-input-17.0.0/build/js/intlTelInput.js"></script>
+
+<script type="text/javascript">
+    $(".your-class").slick({
+        accessibility: true,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        arrows: true,
+        centerMode: true,
+        dots: true,
+        dotsClass: "slick-dots",
+
+    })
+    var input = document.querySelector("#phone");
+    window.intlTelInput(input, {
+        allowDropdown: true,
+        initialCountry: "in"
+    });
+</script>
+
+
+</body>
+
+</html>

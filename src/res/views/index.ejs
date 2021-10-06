@@ -1,1 +1,122 @@
-Welcome to website
+<%- include("partials/header")%>
+    <%- include("partials/navbar") %>
+        <div class="parallax-window d-flex justify-content-start align-items-" data-parallax="scroll"
+            data-image-src="/images/home_banner.jpg">
+            <div class="container  ms-lg-5 mt-lg-5 text-light text-start pt-lg-5 home_banner ps-4 p-lg-0 d-block">
+                <h2 class="fw-light mt-5">Welcome to Techkkare</h2>
+                <h1 class="fw-bold display-4">We Provide customised technology base care to</h1>
+                <h2 class="fw-light">Doctors,Individuals and Corporates</h2>
+                <a class="nav-link text-darkBlue fs-3 my-4 text-center rounded-pill"
+                    style="background:#ccc; width: 200px;" href="/#contactUs">Contact
+                    Us</a>
+            </div>
+        </div>
+
+
+        <section class="container my-5">
+            <h1 class="text-center fw-bold text-darkBlue pb-lg-5 mb-lg-5 mb-3">Services</h1>
+            <div
+                class="d-flex flex-lg-row flex-column justify-content-lg-around justify-content-center align-items-center align-items-lg-none ">
+                <div class="card text-center border-0 shadow-lg rounded-lg my-4 my-lg-0">
+                    <div class="card-body">
+                        <img class=" shadow-lg" src="/images/privacy.svg" alt="network-img" />
+                        <h5 class="card-title">NETWORKING</h5>
+                        <p class="card-text"> sit, amet consectetur adipisicing elit. Eos, saepe?</p>
+                    </div>
+
+
+                </div>
+                <div class="card text-center border-0 shadow-lg my-4 my-lg-0">
+                    <div class="card-body">
+                        <img class=" shadow-lg" src="/images/connecting_with_reliable.svg" alt="corporate-img" />
+                        <h5 class="card-title">CORPORATE</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur . Eos, saepe?</p>
+                    </div>
+
+
+                </div>
+                <div class="card text-center border-0 shadow-lg my-4 my-lg-0">
+                    <div class="card-body">
+                        <img class=" shadow-lg" src="/images/engegement.svg" alt="doctor-img" />
+                        <h5 class="card-title">DOCTOR</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                    </div>
+
+
+                </div>
+                <div class="card text-center border-0 shadow-lg my-4 my-lg-0">
+                    <div class="card-body">
+                        <img class=" shadow-lg" src="/images/reliable_resources.svg" alt="indiviual-img" />
+                        <h5 class="card-title">INDIVIDUAL</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, saepe?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div
+            class="container d-flex my-lg-5 py-lg-5  align-items-center justify-content-around flex-lg-row flex-column">
+            <div class="order-2 order-lg-1 p-0 p-3">
+                <h1 class="text-darkBlue fw-bold mb-lg-5 pb-2 ">What we do</h1>
+                <p class="w-lg-75 w-100  fs-4 text-muted ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Culpa modi
+                    aliquam
+                    alias
+                    dolorem
+                    dignissimos
+                    officiis earum rem eveniet nostrum totam.</p>
+                <p class="w-75 fs-4 text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni,
+                    unde!
+                </p>
+            </div>
+            <div class="order-1 order-lg-2">
+                <img src="/images/circle-wellness.png" class="circle-wellness" alt="cirle" />
+            </div>
+        </div>
+
+        <div class="container my-lg-5 my-2">
+            <h1 class="text-center text-darkBlue fw-bold pb-lg-4 pb-2">Customer Reviews</h1>
+            <div class="your-class pb-3 pb-lg-0">
+                <div class="bg-image d-flex justify-content-end align-items-end text-center">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, magni.</p>
+                    <span>- Customer 1</span>
+                </div>
+                <div class="bg-image d-flex justify-content-center align-items-center">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, magni.</p>
+                    <span>- Customer 2</span>
+                </div>
+                <div class="bg-image d-flex justify-content-center align-items-center">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, magni.</p>
+                    <span>- Customer 3</span>
+                </div>
+                <div class="bg-image d-flex justify-content-center align-items-center">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, magni.</p>
+                    <span>- Customer 4</span>
+                </div>
+                <div class="bg-image d-flex justify-content-center align-items-center">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, magni.</p>
+                    <span>- Customer 5</span>
+                </div>
+            </div>
+        </div>
+
+        <div class=" mt-5 py-5" style="background:rgb(209, 241, 230);height:500px" id="contactUs">
+            <h1 class="text-center text-darkBlue pb-3 fw-bold display-5">Contact Us</h1>
+            <div class="container form my-3 ">
+                <div class="form-body">
+                    <input type="text" class="form-input ms-auto" placeholder="Name" />
+                    <input type="text" class="form-input ms-auto" placeholder="Email" />
+                    <input type="tel" class="form-input " placeholder="Phone" id="phone" />
+                </div>
+                <div class=" form-area">
+                    <textarea placeholder="Address" class="form-input" style="height:90%"></textarea>
+                </div>
+            </div>
+            <button class="mx-auto mb-5 my-lg-3 mb-lg-0 px-5 py-2 btn-primary fs-5"
+                style="display: block;">submit</button>
+        </div>
+
+
+
+        <%- include("partials/footer") %>
